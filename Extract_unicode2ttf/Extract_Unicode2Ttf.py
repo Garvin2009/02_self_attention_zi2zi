@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
 # 使用列表推導式將字符串分割為單個字符的列表
 chinese_characters = [char for char in unicode_chars]
-with open("ttf.txt", 'w', encoding='utf-8') as f:
+with open("U2.txt", 'w', encoding='utf-8') as f:
     f.write(''.join(chinese_characters))
 character_data = []
 unicode_characters = []
