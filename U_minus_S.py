@@ -1,6 +1,6 @@
 # 定義檔案路徑
 big5_file = 'U.txt'
-train_file = 'chinese_character.txt'
+train_file = 'S.txt' #原本是chinese_character.txt
 val_file = 'V.txt'
 
 # 讀取big5檔案內容，逐字處理
