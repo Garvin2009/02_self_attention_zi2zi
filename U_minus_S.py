@@ -1,7 +1,7 @@
 # 定義檔案路徑
 big5_file = 'U.txt'
 train_file = 'chinese_character.txt'
-val_file = 'val.txt'
+val_file = 'V.txt'
 
 # 讀取big5檔案內容，逐字處理
 with open(big5_file, 'r', encoding='utf-8') as f:
